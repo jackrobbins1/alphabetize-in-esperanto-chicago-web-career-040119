@@ -11,7 +11,6 @@ def alphabetize(arr)
     word_arr = el.split("")
     word_arr.map {|letter|
       esperan.index(letter)
-      binding.pry
     }
   }
 end
