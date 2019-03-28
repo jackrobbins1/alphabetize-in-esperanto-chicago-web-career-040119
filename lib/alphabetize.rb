@@ -10,4 +10,4 @@ end
 
 string = "hi"
 
-puts !!string
+puts string.index("i")
