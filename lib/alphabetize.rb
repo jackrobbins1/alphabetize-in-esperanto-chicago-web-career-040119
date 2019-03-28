@@ -6,8 +6,8 @@ end
 
 def alphabetize(arr)
   arr.sort_by {|el|
-    word_arr = 
-    
+    word_arr = el.split("")
+    binding.pry
   }
 end
 
