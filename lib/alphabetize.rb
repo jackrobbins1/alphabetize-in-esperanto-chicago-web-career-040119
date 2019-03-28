@@ -9,6 +9,9 @@ end
 def alphabetize(arr)
   arr.sort_by {|el|
     word_arr = el.split("")
+    word_arr.map {|letter|
+      esperan.index(letter)
+    }
     binding.pry
   }
 end
