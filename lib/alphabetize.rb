@@ -5,7 +5,10 @@ def esperan
 end
 
 def alphabetize(arr)
-  arr.sort{|s1, s2| s1.cmp_loc(s2, alphabet)}
+  arr.sort_by {|el|
+    word_arr = 
+    
+  }
 end
 
 string = "hi"
