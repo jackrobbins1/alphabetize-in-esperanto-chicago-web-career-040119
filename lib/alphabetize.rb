@@ -1,5 +1,7 @@
 require "pry"
 
+test = ["mi amas vin", "bonan matenon", "pacon", "ĉu vi parolas esperanton"]
+
 def esperan
   "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
 end
@@ -11,6 +13,3 @@ def alphabetize(arr)
   }
 end
 
-string = "hi"
-
-puts string.index("i")
